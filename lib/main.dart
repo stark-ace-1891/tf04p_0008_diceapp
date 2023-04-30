@@ -8,7 +8,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(),
+      home: Scaffold(
+        backgroundColor: Colors.redAccent,
+        appBar: AppBar(
+          title: Text("DiceApp"),
+          backgroundColor: Colors.redAccent,
+          centerTitle: true,
+          elevation: 10,
+        ),
+      ),
     );
   }
 }
