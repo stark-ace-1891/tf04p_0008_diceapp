@@ -7,15 +7,20 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return MaterialApp(home: HomePage());
+  }
+}
+
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.redAccent,
+      appBar: AppBar(
+        title: Text("DiceApp"),
         backgroundColor: Colors.redAccent,
-        appBar: AppBar(
-          title: Text("DiceApp"),
-          backgroundColor: Colors.redAccent,
-          centerTitle: true,
-          elevation: 10,
-        ),
+        centerTitle: true,
+        elevation: 10,
       ),
     );
   }
