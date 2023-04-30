@@ -22,6 +22,18 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         elevation: 10,
       ),
+      body: Row(
+        children: [
+          Expanded(
+            flex: 2,
+            child: Image.asset("assets/images/dice2.png"),
+          ),
+          Expanded(
+            flex: 3,
+            child: Image.asset("assets/images/dice4.png"),
+          ),
+        ],
+      ),
     );
   }
 }
