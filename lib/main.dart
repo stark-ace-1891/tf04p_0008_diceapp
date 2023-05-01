@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    print("build");
     return Scaffold(
       backgroundColor: Colors.redAccent,
       appBar: AppBar(
@@ -40,6 +41,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   leftDice = 6;
                   print("Dado Izquierdo");
+                  print(leftDice);
                   setState(() {});
                 },
                 child: Image.asset("assets/images/dice$leftDice.png"),
@@ -51,6 +53,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   rightDice = 5;
                   print("Dado Derecho");
+                  print(rightDice);
                   setState(() {});
                 },
                 child: Image.asset("assets/images/dice$rightDice.png"),

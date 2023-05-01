@@ -20,5 +20,7 @@ StatelessWidget es un Widget sin estado que no puede ser cambiado en tiempo de e
 
 StatefulWidget es un widget con estado y puede ser cambiado en tiempo de ejecucion; consta de 2 clases, una para manejar el widget y otra para manejar el estado de widget, ambas partes funcionan juntas, no podemos prescindir de una de ellas
 
+Cuando en un StateFullWidget se ejecuta el setState, se ejecuta el metodo build del widget
+
 
 
