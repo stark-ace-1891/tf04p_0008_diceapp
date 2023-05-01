@@ -25,11 +25,11 @@ class HomePage extends StatelessWidget {
       body: Row(
         children: [
           Expanded(
-            flex: 2,
+            flex: 1,
             child: Image.asset("assets/images/dice2.png"),
           ),
           Expanded(
-            flex: 3,
+            flex: 1,
             child: Image.asset("assets/images/dice4.png"),
           ),
         ],
