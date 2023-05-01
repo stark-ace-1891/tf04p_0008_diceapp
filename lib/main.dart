@@ -40,6 +40,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   leftDice = 6;
                   print("Dado Izquierdo");
+                  setState(() {});
                 },
                 child: Image.asset("assets/images/dice$leftDice.png"),
               ),
@@ -50,6 +51,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   rightDice = 5;
                   print("Dado Derecho");
+                  setState(() {});
                 },
                 child: Image.asset("assets/images/dice$rightDice.png"),
               ),
