@@ -22,17 +22,25 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         elevation: 10,
       ),
-      body: Row(
-        children: [
-          Expanded(
-            flex: 1,
-            child: Image.asset("assets/images/dice2.png"),
-          ),
-          Expanded(
-            flex: 1,
-            child: Image.asset("assets/images/dice4.png"),
-          ),
-        ],
+      body: Center(
+        child: Row(
+          children: [
+            Expanded(
+              flex: 1,
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Image.asset("assets/images/dice2.png"),
+              ),
+            ),
+            Expanded(
+              flex: 1,
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Image.asset("assets/images/dice4.png"),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
