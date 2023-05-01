@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.redAccent,
       appBar: AppBar(
-        title: Text("DiceApp"),
+        title: const Text("DiceApp"),
         backgroundColor: Colors.redAccent,
         centerTitle: true,
         elevation: 10,
