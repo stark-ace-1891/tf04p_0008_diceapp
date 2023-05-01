@@ -27,15 +27,19 @@ class HomePage extends StatelessWidget {
           children: [
             Expanded(
               flex: 1,
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
+              child: TextButton(
+                onPressed: () {
+                  print("Dado Izquierdo");
+                },
                 child: Image.asset("assets/images/dice2.png"),
               ),
             ),
             Expanded(
               flex: 1,
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
+              child: TextButton(
+                onPressed: () {
+                  print("Dado Derecho");
+                },
                 child: Image.asset("assets/images/dice4.png"),
               ),
             ),
